@@ -55,10 +55,10 @@ NLP_Project/
 
 ## 📊 Datasets
 
-| Dataset | Source | Domain | Size | Labels |
+| Dataset | Source | Domain | Labels | Repository |
 |---|---|---|---|---|
-| **MDDL** | Twitter API | Depression | ~users × tweets | Depressed / Not Depressed |
-| **twitter-suicidal_data** | Twitter | Suicidal Ideation | ~tweets | Suicidal / Not Suicidal |
+| **MDDL** | Twitter API | Depression | Depressed / Not Depressed | [sunlightsgy/MDDL](https://github.com/sunlightsgy/MDDL) |
+| **twitter-suicidal_data** | Twitter | Suicidal Ideation | Suicidal / Not Suicidal | [laxmimerit/twitter-suicidal-intention-dataset](https://github.com/laxmimerit/twitter-suicidal-intention-dataset) |
 
 - The MDDL dataset contains tweets from users who self-reported a depression diagnosis, collected within one month of their disclosure tweet
 - The suicidal dataset is used **exclusively for evaluation** — never for training
@@ -178,9 +178,14 @@ X_roberta_eval = np.load('roberta_results/X_eval.npy')
 
 ## 📚 References
 
+**Models:**
 - Ji, S., Zhang, T., Ansari, L., Fu, J., Tiwari, P., & Cambria, E. (2022). **MentalBERT: Publicly Available Pretrained Language Models for Mental Health Analysis.** *LREC 2022.* https://arxiv.org/abs/2110.15621
 - Liu, Y. et al. (2019). **RoBERTa: A Robustly Optimized BERT Pretraining Approach.** https://arxiv.org/abs/1907.11692
 - Coppersmith, G., Dredze, M., & Harman, C. (2014). **Quantifying Mental Health Signals in Twitter.** *ACL Workshop on Computational Linguistics and Clinical Psychology.*
+
+**Datasets:**
+- Shen, G. et al. **MDDL — Multi-Domain Depression Detection on Twitter.** GitHub: https://github.com/sunlightsgy/MDDL
+- Kumar, L. **Twitter Suicidal Intention Dataset.** GitHub: https://github.com/laxmimerit/twitter-suicidal-intention-dataset
 
 ---
 

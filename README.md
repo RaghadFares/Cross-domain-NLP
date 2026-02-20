@@ -58,7 +58,8 @@ NLP_Project/
 | Dataset | Source | Domain | Labels | Repository |
 |---|---|---|---|---|
 | **MDDL** | Twitter API | Depression | Depressed / Not Depressed | [sunlightsgy/MDDL](https://github.com/sunlightsgy/MDDL) |
-| **twitter-suicidal_data** | Twitter | Suicidal Ideation | Suicidal / Not Suicidal | [laxmemerit/twitter-suicidal-intention-dataset](https://github.com/laxmemerit/twitter-suicidal-intention-dataset) |
+| **twitter-suicidal_data** | Twitter | Suicidal Ideation | Suicidal / Not Suicidal | [laxmemerit/twitter-suicidal-intention-dataset]
+(https://github.com/laxmimerit/twitter-suicidal-intention-dataset) |
 
 - The MDDL dataset contains tweets from users who self-reported a depression diagnosis, collected within one month of their disclosure tweet
 - The suicidal dataset is used **exclusively for evaluation** — never for training

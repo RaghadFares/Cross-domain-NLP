@@ -15,44 +15,6 @@ We answer this empirically through **three complete experiments** using progress
 
 ---
 
-## 🗂️ Project Structure
-
-```
-NLP_Project/
-│
-├── 📓 Cross_Domain_NLP_Final_Organized.ipynb   ← Main notebook (all experiments)
-│
-├── cleaned_data/
-│   ├── mddl_cleaned.csv                        ← Preprocessed depression tweets
-│   └── suicidal_cleaned.csv                    ← Preprocessed suicidal tweets
-│
-├── tfidf_results/                              ← Experiment A outputs
-│   ├── indomain_results.csv
-│   ├── crossdomain_results.csv
-│   └── *.png  (charts, PR curves)
-│
-├── roberta_results/                            ← Experiment B outputs
-│   ├── indomain_results.csv
-│   ├── crossdomain_results.csv
-│   ├── X_full.npy  (embeddings — reusable)
-│   ├── X_eval.npy
-│   └── pr_curves.png
-│
-├── mentalbert_results/                         ← Experiment C outputs
-│   ├── indomain_results.csv
-│   ├── crossdomain_results.csv
-│   ├── X_full.npy
-│   ├── X_eval.npy
-│   └── pr_curves.png
-│
-└── final_comparison/
-    ├── threeway_crossdomain.csv                ← All classifiers, all methods
-    ├── threeway_indomain.csv
-    └── threeway_comparison.png                 ← Main result visualisation
-```
-
----
-
 ## 📊 Datasets
 
 | Dataset | Source | Domain | Labels | Repository |

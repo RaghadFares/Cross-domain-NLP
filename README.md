@@ -176,6 +176,7 @@ X_roberta_eval = np.load('roberta_results/X_eval.npy')
 ## 👥 Team
 
 - Raghad Fares Almutairi
+- Raghad Sultan Aldajani
 
 IT469 – Human Language Technologies
 King Saud University · College of Computer and Information Sciences · Spring 2026

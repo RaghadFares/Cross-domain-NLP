@@ -177,6 +177,7 @@ X_roberta_eval = np.load('roberta_results/X_eval.npy')
 
 - Raghad Fares Almutairi
 - Raghad Sultan Aldajani
+- Nora Fisal Albyahi
 
 IT469 – Human Language Technologies
 King Saud University · College of Computer and Information Sciences · Spring 2026

@@ -189,5 +189,3 @@ Raghad Sultan Aldajani, Nora Fisal Albyahi
 
 IT469 – Human Language Technologies
 King Saud University · Spring 2026
-```
-
